@@ -21,7 +21,7 @@ class CreateCategoriesTable extends Migration
             $table->integer('user_created')->unsigned();
             $table->integer('user_modified')->unsigned();
             $table->timestamps();
-          
+
         });
     }
 
